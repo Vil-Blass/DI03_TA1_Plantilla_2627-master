@@ -1,0 +1,11 @@
+@if (selecciones().length === 0) {
+  <ion-item lines="none" color="light">
+    <ion-icon slot="start" name="bar-chart-outline" color="medium"></ion-icon>
+    <ion-label>No hay datos que mostrar.</ion-label>
+  </ion-item>
+} @else {
+  <div class="chart-wrapper">
+    <!-- Canvas del gráfico de goles -->
+    <canvas #canvasGoles></canvas>
+  </div>
+}

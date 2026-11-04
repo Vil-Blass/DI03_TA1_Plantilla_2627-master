@@ -1,0 +1,18 @@
+﻿<ion-header>
+  <ion-toolbar>
+    <ion-title>⚽ UEFA Euro 2024 — Estadísticas</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Goles por selección</ion-card-title>
+      <ion-card-subtitle>24 selecciones participantes, ordenadas por goles totales</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <app-graficos [selecciones]="seleccion"></app-graficos>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
